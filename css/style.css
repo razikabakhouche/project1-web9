@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+body{
+    height: 1000px;
+    
+}
+/*start nav section*/
+nav {
+    position:sticky;
+    top: 0px;
+}
+ul{
+    background-color: rgb(246, 192, 192);
+    text-align: center;
+    
+    
+}
+ul li{
+    display: inline-block;
+    margin:20px ;
+    font-size: 20px;
+}
+ul li:hover{
+    background-color:rgb(188, 82, 82);
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*start hero section*/
+
+.hero{
+height: 400px;
+background-image: url('../imgs/pink\ kids.webp');
+background-position:center center;
+background-size: cover;
+color: blanchedalmond;
+text-align: center;
+
+}
+.about_us{
+    
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.about_us h1 {
+    margin-bottom: 30px;
+    color: brown;
+    font-size: 35px;
+}
+.allbox {
+    display: flex;
+}
+.allbox .box h3{
+    color:brown
+}
+.box{
+    width: 30%;
+    background-color:rgb(246, 192, 192);
+    margin: auto;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px ;
+    cursor: pointer; 
+    margin: auto 30px;
+    transition-duration: 2s;
+    transition-timing-function:linear;
+
+}
+.box:hover{
+    background-color:rgb(236, 169, 169);
+    box-shadow: 3px 3px 3px rgb(185, 91, 91);
+    
+    
+    transform: translateX(15px);
+    
+}
+
+
+i{
+   background-color: brown; 
+   width: 60px;
+   height: 60px;
+   color: white;
+   font-size: 25px;
+   border-radius: 50%;
+   margin: auto;
+}
+.box i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box h3 {
+    font-size: 25px;
+    color: palevioletred;
+    margin-top: 10px;
+
+}
+.content {
+text-align: center;    
+width: 80%;
+margin: auto;
+margin-top:50px;
+
+}
+
+
+
+.content h1{
+    margin-bottom: 30px;
+    color: brown;
+    font-size: 35px;
+}
+.content p{
+    margin-bottom: 20px;
+    height: 80px;
+    padding:10px;
+    background-color:  rgba(246, 192, 192, 0.176);
+    border-radius: 10px;
+    position: relative;
+    transition: 2s;
+    text-align: left;
+    padding-left: 30px;
+}
+.content p:hover{
+    background-color: rgba(246, 192, 192, 0.697);
+}
+.content p::before{
+    content:'';
+    background-color: brown;
+    width: 20px;
+    height: 100%;
+    border-top-left-radius:  10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+
+
+.content img{
+    width: 350px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+/*start contact-us part*/
+
+.contact-us{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.contact-us .contact-form{
+    width: 550px;
+    background-color: rgba(246, 192, 192, 0.584);
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    transition-duration: 3s;
+}
+
+.contact-us .contact-form:hover{
+width: 700px;
+background-color: rgb(236, 169, 169);
+
+
+}
+
+.input-form input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgb(195, 212, 195);
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.input-form input:focus{
+    border: 1px solid rgb(83, 80, 81);
+    outline: none;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(225, 207, 207);
+    border-radius: 3px;
+}
+textarea:focus{
+    border: 1px solid rgb(83, 80, 81);
+    outline: none;
+}
+
+.btn-send{
+    background-color:brown;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgba(206, 175, 175, 0.347);
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px
+}
+.btn-send:hover{
+    background-color: rgb(214, 90, 162);
+    width: 200px;
+}
+footer{
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background-color: rgb(246, 192, 192);
+    text-align: center;
+    line-height: 50px;
+}
+footer p{
+    font-size: 18px;
+    
+    
+}
